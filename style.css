@@ -76,3 +76,10 @@
     border: solid #9e3641;
     text-align: center;
 }
+
+.history {
+    padding: 20px; /* Add padding to create spacing around the section */
+    background-color: #f8f9fa; /* Add background color for better visibility */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    margin-bottom: 20px; /* Optional: Add margin bottom to create space between sections */
+}
