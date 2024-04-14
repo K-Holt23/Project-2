@@ -1,0 +1,12 @@
+:root {
+    --primary: #FFF8F0;
+    --secondary: #1E1E24;
+    --accent: #A40000;
+    --primary-rbg: 255, 248, 240;
+    --secondary-rbg: 30, 30, 36;
+    --accent-rbg: 164, 0, 0;
+}
+
+body {
+    background-color: var(--primary);
+}
