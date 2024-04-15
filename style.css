@@ -9,7 +9,7 @@
 
 body {
     background-color: var(--primary);
-    margin: 50px;
+    margin: 10px 50px 10px 50px;
     padding: 15px;
 }
 
@@ -19,6 +19,12 @@ body {
     font-family: Bebas Neue;
     color: var(--secondary)
 }
+
+.loud:hover {
+    color: var(--accent);
+}
+
+
 
 .head {
     font-family: Bebas Neue;
@@ -35,9 +41,15 @@ body {
     color: var(--primary);
 }
 
+.btn:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+
 .Carousel {
     background: var(--primary);
-    height: 400px;
+    height: 75vh;
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
@@ -104,8 +116,9 @@ body {
 }
 
 .card {
-    border: solid var(--accent);
+    border: solid var(--accent) 5px;
     text-align: center;
+    margin: 50px 10px 50px 10px;
 }
 
 .paragraph-text {
