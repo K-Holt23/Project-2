@@ -89,3 +89,22 @@ body {
     border: solid #9e3641;
     text-align: center;
 }
+
+.contact-content {
+    width: 700px;
+    height: 250px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+    padding: 15px;
+    margin-top: 5px;
+}
