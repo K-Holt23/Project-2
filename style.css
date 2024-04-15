@@ -9,18 +9,30 @@
 
 body {
     background-color: var(--primary);
-    color: var(--secondary);
-    margin: 100px;
+    margin: 50px;
+    padding: 15px;
 }
-
 
 .loud {
     font-size: 50px;
     padding: 30px;
+    font-family: Bebas Neue;
+    color: var(--secondary)
 }
 
 .head {
     font-family: Bebas Neue;
+    color: var(--accent)
+}
+
+.text {
+    font-family: Roboto Condensed;
+    color: var(--secondary)
+}
+
+.btn {
+    background-color: var(--accent);
+    color: var(--primary);
 }
 
 .Carousel {
@@ -94,10 +106,6 @@ body {
 .card {
     border: solid var(--accent);
     text-align: center;
-}
-
-.text {
-    font-family: Roboto Condensed;
 }
 
 .paragraph-text {
