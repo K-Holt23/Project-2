@@ -13,11 +13,15 @@ body {
     margin: 100px;
 }
 
+
 .loud {
-    font-size: 35px;
+    font-size: 50px;
     padding: 30px;
 }
 
+.head {
+    font-family: Bebas Neue;
+}
 
 .Carousel {
     background: var(--primary);
@@ -90,4 +94,16 @@ body {
 .card {
     border: solid var(--accent);
     text-align: center;
+}
+
+.text {
+    font-family: Roboto Condensed;
+}
+
+.paragraph-text {
+    font-size: 25px;
+}
+
+.card-text {
+    font-size: 17px;
 }
