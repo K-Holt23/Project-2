@@ -9,19 +9,45 @@
 
 body {
     background-color: var(--primary);
-    color: var(--secondary);
-    margin: 100px;
+    margin: 10px 50px 10px 50px;
+    padding: 15px;
 }
 
 .loud {
-    font-size: 35px;
+    font-size: 50px;
     padding: 30px;
+    font-family: Bebas Neue;
+    color: var(--secondary)
+}
+
+.loud:hover {
+    color: var(--accent);
+}
+
+.head {
+    font-family: Bebas Neue;
+    color: var(--accent)
+}
+
+.text {
+    font-family: Roboto Condensed;
+    color: var(--secondary)
+}
+
+.btn {
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+.btn:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
 }
 
 
 .Carousel {
     background: var(--primary);
-    height: 400px;
+    height: 75vh;
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
@@ -88,8 +114,17 @@ body {
 }
 
 .card {
-    border: solid var(--accent);
+    border: solid var(--accent) 5px;
     text-align: center;
+    margin: 50px 10px 50px 10px;
+}
+
+.paragraph-text {
+    font-size: 25px;
+}
+
+.card-text {
+    font-size: 17px;
 }
 
  /* styles for the table */
@@ -116,3 +151,4 @@ table {
     background-color: #dddddd;
   }
   
+ 
