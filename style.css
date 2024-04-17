@@ -9,22 +9,50 @@
 
 body {
     background-color: var(--primary);
+    margin: 10px 50px 10px 50px;
+    padding: 15px;
 }
 
 .loud {
-    font-size: 35px;
+    font-size: 50px;
     padding: 30px;
+    font-family: Bebas Neue;
+    color: var(--secondary)
+}
+
+.loud:hover {
+    color: var(--accent);
+}
+
+.head {
+    font-family: Bebas Neue;
+    color: var(--accent)
+}
+
+.text {
+    font-family: Roboto Condensed;
+    color: var(--secondary)
+}
+
+.btn {
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+.btn:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
 }
 
 
 .Carousel {
     background: var(--primary);
-    height: 400px;
+    height: 75vh;
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    border: 8px solid #9e3641;
+    border: 8px solid var(--accent);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     place-items: center;
 }
@@ -86,8 +114,44 @@ body {
 }
 
 .card {
-    border: solid #9e3641;
+    border: solid var(--accent) 5px;
     text-align: center;
+
+    margin: 50px 10px 50px 10px;
+}
+
+.paragraph-text {
+    font-size: 25px;
+}
+
+.card-text {
+    font-size: 17px;
+}
+
+ /* styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #dddddd;
+  }
+  
 }
 
 .contact-content {
