@@ -116,6 +116,7 @@ body {
 .card {
     border: solid var(--accent) 5px;
     text-align: center;
+
     margin: 50px 10px 50px 10px;
 }
 
@@ -151,4 +152,23 @@ table {
     background-color: #dddddd;
   }
   
- 
+}
+
+.contact-content {
+    width: 700px;
+    height: 250px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+    padding: 15px;
+    margin-top: 5px;
+}
