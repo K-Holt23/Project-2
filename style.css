@@ -283,3 +283,24 @@ input:checked + label + .background {
     background-color: #242424;
     color: white;
 }
+footer{
+    height: 15vh;
+    background-color: var(--primary);
+    font-size: 30px;
+    padding: 70px;
+}
+
+.icons{
+    display:flex;
+    justify-content: space-around;
+    padding: 70px 0;
+    font-size: 30px;
+}
+
+.fa-brands:hover{
+    color: var(--accent);
+}
+
+
+
+
