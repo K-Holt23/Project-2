@@ -92,7 +92,25 @@ function onArtistChange(data) {
 }
 
 function myFunction() {
-  var element = document.body;
-  element.classList.toggle("background");
+  var root = document.documentElement;
+  console.log("Check")
+
+  if (document.getElementById("darkmode-toggle").checked) {
+    // enable dark mode
+    root.style.setProperty("--primary", "#1E1E24");
+    root.style.setProperty("--secondary", "#FFF8F0");
+    root.style.setProperty("--accent", "#A40000");
+    root.style.setProperty("--primary-rgb", "30, 30, 36");
+    root.style.setProperty("--secondary-rgb", "255, 248, 240");
+    root.style.setProperty("--accent-rgb", "164, 0, 0");
+  } else {
+    // disable dark mode, enable light mode
+    root.style.setProperty("--primary", "#FFF8F0");
+    root.style.setProperty("--secondary", "#1E1E24");
+    root.style.setProperty("--accent", "#A40000");
+    root.style.setProperty("--primary", "255, 248, 240");
+    root.style.setProperty("--primary", "30, 30, 36");
+    root.style.setProperty("--primary", "164, 0, 0");
+  }
 }
 

@@ -17,7 +17,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <!-- <script defer src="/js/music.js"></script> -->
+    <script defer src="/js/music.js"></script>
 </head>
 <header>
     <span>
@@ -57,10 +57,10 @@
 
 <body>
     <section>
-        <input type="checkbox" id="darkmode-toggle" onclick="myFunction()" />
-        <label for="darkmode-toggle"></label>
+        <input type="checkbox" id="darkmode-toggle" onchange="myFunction()" />
+        <label class="switch-label" for="darkmode-toggle"></label>
     </section>
-    <section class="Carousel"
+    <section class="Carousel">
         <div class="slides">
             <div class="slide slide-1">
                 <img src="./images/vinyl.webp" alt="Vinyl Record">
@@ -71,6 +71,7 @@
             <div class="slide slide-3">
                 <img src="./images/cd.jpg" alt="CD">
             </div>
+        </div>
     </section>
     <br>
     <br>
