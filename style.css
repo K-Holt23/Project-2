@@ -153,6 +153,7 @@ td {
     padding: 8px;
     border: 2px solid var(--secondary);
     text-align: left;
+
     font-family: Roboto Condensed;
 }
 
@@ -171,6 +172,21 @@ tr:nth-child(odd) {
     background-color: var(--secondary);
     color: var(--primary);
 }
+=======
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #dddddd;
+  }
+  
 
 tr:nth-child(even) {
     color: var(--secondary);
