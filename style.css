@@ -25,6 +25,15 @@ body {
     color: var(--accent);
 }
 
+.navbar-brand {
+    color: var(--secondary) !important;
+}
+
+.logo {
+    background: #FFF8F0;
+    background-size: con
+}
+
 
 /* Styles for general site content */
 .head {
@@ -141,6 +150,7 @@ body {
 .table-label {
     font-family: Bebas Neue;
     font-size: 25px;
+    color: var(--secondary);
 }
 
 .dropdown-data {
