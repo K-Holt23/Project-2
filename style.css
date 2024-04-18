@@ -18,22 +18,37 @@ body {
     font-size: 50px;
     padding: 30px;
     font-family: Bebas Neue;
-    color: var(--secondary)
+    color: var(--secondary);
 }
 
 .loud:hover {
     color: var(--accent);
 }
 
+.navbar-brand {
+    color: var(--secondary) !important;
+}
+
+.logo {
+    background: #FFF8F0;
+    background-size: con
+}
+
+
 /* Styles for general site content */
 .head {
     font-family: Bebas Neue;
-    color: var(--accent)
+    color: var(--accent);
 }
 
 .text {
     font-family: Roboto Condensed;
-    color: var(--secondary)
+    color: var(--secondary);
+}
+
+.noChange {
+    font-family: Roboto Condensed;
+    color: #1E1E24;
 }
 
 /* Styles for submit button */
@@ -135,6 +150,7 @@ body {
 .table-label {
     font-family: Bebas Neue;
     font-size: 25px;
+    color: var(--secondary);
 }
 
 .dropdown-data {

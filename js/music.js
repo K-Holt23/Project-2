@@ -96,20 +96,20 @@ function myFunction() {
 
   if (document.getElementById("darkmode-toggle").checked) {
     // enable dark mode
-    root.style.setProperty("--primary", "#1E1E24");
-    root.style.setProperty("--secondary", "#FFF8F0");
-    root.style.setProperty("--accent", "#A40000");
-    root.style.setProperty("--primary-rgb", "30, 30, 36");
-    root.style.setProperty("--secondary-rgb", "255, 248, 240");
-    root.style.setProperty("--accent-rgb", "164, 0, 0");
+    root.style.setProperty("--primary", "#1E1E24"); //black
+    root.style.setProperty("--secondary", "#FFF8F0"); //white
+    root.style.setProperty("--accent", "#A40000"); //red
+    root.style.setProperty("--primary-rgb", "30, 30, 36"); //black
+    root.style.setProperty("--secondary-rgb", "255, 248, 240"); //white
+    root.style.setProperty("--accent-rgb", "164, 0, 0"); //red
   } else {
     // disable dark mode, enable light mode
-    root.style.setProperty("--primary", "#FFF8F0");
-    root.style.setProperty("--secondary", "#1E1E24");
-    root.style.setProperty("--accent", "#A40000");
-    root.style.setProperty("--primary", "255, 248, 240");
-    root.style.setProperty("--primary", "30, 30, 36");
-    root.style.setProperty("--primary", "164, 0, 0");
+    root.style.setProperty("--primary", "#FFF8F0"); //white
+    root.style.setProperty("--secondary", "#1E1E24"); //black
+    root.style.setProperty("--accent", "#A40000"); //red
+    root.style.setProperty("--primary-rgb", "255, 248, 240"); //white
+    root.style.setProperty("--primary-rgb", "30, 30, 36"); //black
+    root.style.setProperty("--primary-rgb", "164, 0, 0"); //red
   }
 }
 
