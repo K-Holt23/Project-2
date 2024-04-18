@@ -93,7 +93,6 @@ function onArtistChange(data) {
 
 function myFunction() {
   var root = document.documentElement;
-  console.log("Check")
 
   if (document.getElementById("darkmode-toggle").checked) {
     // enable dark mode
