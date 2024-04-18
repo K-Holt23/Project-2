@@ -175,11 +175,12 @@ tr:nth-child(odd) {
 
 
 th {
-    background-color: #f2f2f2 !important;
+    background-color: var(--accent) !important;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2 !important;
+    background-color: var(--primary) !important;
+    color: var(--secondary);
 }
 
 tr:hover {
@@ -187,8 +188,8 @@ tr:hover {
 }
 
 
-tr:nth-child(even) {
-    color: var(--secondary) !important;
+tr:nth-child(odd) {
+    color: var(--primary) !important;
 }
 
 tr:hover {
