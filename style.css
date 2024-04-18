@@ -221,6 +221,7 @@ iframe {
     margin-top: 5px;
 }
 
+
 label {
     width: 500px;
     height: 200px;
@@ -283,6 +284,7 @@ input:checked + label + .background {
     background-color: #242424;
     color: white;
 }
+
 footer{
     height: 15vh;
     background-color: var(--primary);
