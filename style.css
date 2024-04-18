@@ -242,17 +242,17 @@ iframe {
     transition: 0.3s;
 }
 
-input {
+.switch-input {
     width: 0;
     height: 0;
     visibility: hidden;
 }
 
-input:checked+.switch-label {
+.switch-input:checked+.switch-label {
     background: #242424;
 }
 
-input:checked+.switch-label:after {
+.switch-input:checked+.switch-label:after {
     left: 115px;
     transform: translateX(-100%);
     background: linear-gradient(180deg, #777, #3a3a3a);
