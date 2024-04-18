@@ -13,6 +13,7 @@ body {
     padding: 15px;
 }
 
+/* Styles for Navbar */
 .loud {
     font-size: 50px;
     padding: 30px;
@@ -24,6 +25,7 @@ body {
     color: var(--accent);
 }
 
+/* Styles for general site content */
 .head {
     font-family: Bebas Neue;
     color: var(--accent)
@@ -34,6 +36,7 @@ body {
     color: var(--secondary)
 }
 
+/* Styles for submit button */
 .btn {
     background-color: var(--accent);
     color: var(--primary);
@@ -44,7 +47,7 @@ body {
     color: var(--primary);
 }
 
-
+/* Carousel styles */
 .Carousel {
     background: var(--primary);
     height: 75vh;
@@ -107,7 +110,7 @@ body {
     }
 }
 
-
+/* Employee information */
 .card-container {
     display: flex;
     justify-content: space-around;
@@ -128,16 +131,48 @@ body {
     font-size: 17px;
 }
 
- /* styles for the table */
+/* styles for the table */
+.table-label{
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
+
+.dropdown-data{
+    font-family: Roboto Condensed;
+    font-size:20px;
+}
+
 table {
     width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
+    /* border-collapse: collapse; */
+    border: 5px solid var(--secondary);
+}
+
+th,
+td {
     padding: 8px;
-    border: 1px solid #dddddd;
+    border: 2px solid var(--secondary);
     text-align: left;
+
+    font-family: Roboto Condensed;
+}
+
+th {
+    background-color: var(--accent);
+    font-family: Bebas Neue;
+    color: var(--primary);
+    font-size: 30px;
+}
+
+tr{
+    font-size: 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+=======
   }
   
   th {
@@ -153,6 +188,16 @@ table {
   }
   
 
+tr:nth-child(even) {
+    color: var(--secondary);
+}
+
+tr:hover {
+    background-color: #ffcccc;
+    color: var(--secondary);
+}
+
+/* Styles for email */
 .contact-content {
     width: 700px;
     height: 250px;
@@ -163,6 +208,11 @@ table {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    /* list-style-type: none; */
+}
+
+.contact {
+    list-style-type: none;
 }
 
 iframe {
