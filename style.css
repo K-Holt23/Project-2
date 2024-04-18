@@ -236,6 +236,7 @@ iframe {
 .switch-label {
     width: 125px;
     height: 50px;
+    margin: auto;
     position: relative;
     display: block;
     background: #ebebeb;
@@ -276,6 +277,10 @@ iframe {
 
 .switch-label:active:after {
     width: 115px;
+}
+
+.dark-mode-label {
+    text-align: center;
 }
 
 /* Footer with icons */
