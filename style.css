@@ -99,6 +99,10 @@ body {
     animation-delay: 8s;
 }
 
+.slide-4 {
+    animation-delay: 6s;
+}
+
 .slide img {
     width: 100%;
     height: 100%;
@@ -299,7 +303,7 @@ footer {
 }
 
 /* Modal styles */
-  .modal {
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -308,19 +312,19 @@ footer {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
-  }
-  
-  .modal-content {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
     background-color: var(--primary);
     margin: 15% auto;
     padding: 20px;
     border: 10px solid var(--accent);
     width: 50%;
     color: var(--secondary);
-  }
-  
-  .close {
+}
+
+.close {
     color: #aaa;
     font-size: 28px;
     font-weight: bold;
@@ -328,18 +332,17 @@ footer {
     top: 0;
     right: 0;
     margin: 10px;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: var(--accent);
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
-  .modal-btn{
+.modal-btn {
     display: flex;
     justify-content: center;
-    align-items:center;
-  }
-
+    align-items: center;
+}
