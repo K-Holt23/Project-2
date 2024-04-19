@@ -29,11 +29,6 @@ body {
     color: var(--secondary) !important;
 }
 
-.logo {
-    background: var(--primary);
-}
-
-
 /* Styles for general site content */
 .head {
     font-family: Bebas Neue;
