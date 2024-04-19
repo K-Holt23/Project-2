@@ -47,7 +47,7 @@ body {
 
 .noChange {
     font-family: Roboto Condensed;
-    color: #1E1E24;
+    color: var(--secondary);
 }
 
 /* Styles for submit button */
