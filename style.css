@@ -301,3 +301,55 @@ footer {
 .fa-brands:hover {
     color: var(--accent);
 }
+
+  #openModal {
+    display: block;
+    margin: 0 auto;
+    text-align: center; 
+    background-color: #A40000;
+    color: #FFF8F0;
+    font-family: Bebas Neue;
+  }
+  
+#openModal:hover {
+    background-color:#FFF8F0;
+    color: #A40000;
+}
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+
+  .modal-content {
+    background-color: #FFF8F0;
+    margin: 15% auto;
+    padding: 20px;
+    border: 10px solid #A40000;
+    width: 50%;
+  }
+  
+  .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #A40000;
+    text-decoration: none;
+    cursor: pointer;
+  }
