@@ -30,8 +30,7 @@ body {
 }
 
 .logo {
-    background: #FFF8F0;
-    background-size: con
+    background: var(--primary);
 }
 
 
@@ -48,13 +47,15 @@ body {
 
 .noChange {
     font-family: Roboto Condensed;
-    color: #1E1E24;
+    color: var(--secondary);
 }
 
 /* Styles for submit button */
 .btn {
     background-color: var(--accent);
     color: var(--primary);
+    font-family: Bebas Neue;
+    font-size: 20px;
 }
 
 .btn:hover {
@@ -194,11 +195,6 @@ tr:nth-child(even) {
     color: var(--secondary);
 }
 
-tr:hover {
-    background-color: #dddddd !important;
-}
-
-
 tr:nth-child(odd) {
     color: var(--primary) !important;
 }
@@ -301,3 +297,49 @@ footer {
 .fa-brands:hover {
     color: var(--accent);
 }
+
+/* Modal styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: var(--primary);
+    margin: 15% auto;
+    padding: 20px;
+    border: 10px solid var(--accent);
+    width: 50%;
+    color: var(--secondary);
+  }
+  
+  .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: var(--accent);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
